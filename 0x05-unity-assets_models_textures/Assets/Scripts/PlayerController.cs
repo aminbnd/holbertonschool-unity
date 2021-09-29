@@ -32,5 +32,11 @@ public class PlayerController : MonoBehaviour
         {
             gravityVector.y = -1f;
         }
+
+        // Repeat in case of falling
+        if(transform.position.y < -30)
+        {
+            transform.position = new Vector3 (0, 30, 0);
+        }
     }
 }
