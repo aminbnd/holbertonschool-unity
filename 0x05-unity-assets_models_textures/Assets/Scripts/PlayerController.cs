@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 gravityVector = Vector3.zero;
     public float maxJumpHeight = 3f;
     private bool isGrounded = true;
-    void Update()
+    void FixedUpdate()
     {
         isGrounded = charCon.isGrounded;
         // Move horizontally and forward backward
@@ -20,8 +20,6 @@ public class PlayerController : MonoBehaviour
 
         charCon.Move(direction * speed * Time.deltaTime);
 
-        Debug.Log(isGrounded);
-        Debug.Log(gravityVector.y);
         // Handle Jump
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
