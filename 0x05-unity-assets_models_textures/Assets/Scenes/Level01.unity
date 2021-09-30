@@ -855,6 +855,7 @@ GameObject:
   - component: {fileID: 773363802}
   - component: {fileID: 773363801}
   - component: {fileID: 773363800}
+  - component: {fileID: 773363804}
   m_Layer: 0
   m_Name: WinFlag
   m_TagString: Untagged
@@ -939,6 +940,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773363804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773363799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921d3dc11a6af9d4f9c44b318fc0be53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &841298934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,7 +3023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charCon: {fileID: 4063153453480947851}
   speed: 6
-  maxJumpHeight: 11
+  maxJumpHeight: 12
 --- !u!4 &4063153453480947856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4063153452542346460, guid: 732bc3096a08e264396f58f8b9ef3fa4, type: 3}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class Timer : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    private DateTime startTime;
     float time = 0f;
     public Text timeText;
     private bool runTimer = false;
