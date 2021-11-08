@@ -3861,6 +3861,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1507439496490204695, guid: 419e5bc653a4e3d4f8d21a58a88cf790, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 716ff16224a4fdd438a65a3c8cec5ec9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 419e5bc653a4e3d4f8d21a58a88cf790, type: 3}
 --- !u!1001 &4063153453480947849
