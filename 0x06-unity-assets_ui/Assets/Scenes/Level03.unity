@@ -3981,7 +3981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charCon: {fileID: 4063153453480947851}
   speed: 6
-  maxJumpHeight: 12
+  maxJumpHeight: 2.7
 --- !u!4 &4063153453480947856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4063153452542346460, guid: 732bc3096a08e264396f58f8b9ef3fa4, type: 3}

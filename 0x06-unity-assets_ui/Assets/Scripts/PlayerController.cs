@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Class for player controler
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     public CharacterController charCon;
@@ -10,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private Vector3 gravityVector = Vector3.zero;
     public float maxJumpHeight = 3f;
     private bool isGrounded = true;
+    /// <summary>
+    /// Fixed updates for physics
+    /// </summary>
     void FixedUpdate()
     {
         isGrounded = charCon.isGrounded;
