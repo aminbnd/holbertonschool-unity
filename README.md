@@ -6,7 +6,7 @@ A project for [Holberton School](https://www.holbertonschool.com/), This is a re
 2. Choose a folder to run
 3. Open the selected folder with your unity editor
 ## Example:
-This an example on how the 0x05-unity-assets_models_textures looks like
+This an example on how the 0x05-unity-assets_models_textures project looks like:
 <br>
 ![0x05-unity-assets_models_textures](https://github.com/aminbnd/holbertonschool-unity/blob/main/0x05_Unity.png)
 ## Challenges:
