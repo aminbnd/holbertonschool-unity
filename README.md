@@ -6,7 +6,7 @@ A project for [Holberton School](https://www.holbertonschool.com/), This is a re
 2. Choose a folder to run
 3. Open the selected folder with your unity editor
 ## Example:
-![](https://github.com/aminbnd/holbertonschool-unity/blob/main/0x05_Unity.png)
+![0x05-unity-assets_models_textures](https://github.com/aminbnd/holbertonschool-unity/blob/main/0x05_Unity.png)
 ## Challenges:
 * Trying to make the scripts have fewer lines
 * Trying to make clean and understandable scripts
